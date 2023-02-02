@@ -1,3 +1,4 @@
+rm(list=ls(all=TRUE))
 ## load libraries
 library(permute)
 library(indicspecies)
