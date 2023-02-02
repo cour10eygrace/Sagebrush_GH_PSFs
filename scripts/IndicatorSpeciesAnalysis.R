@@ -8,7 +8,7 @@ library(ggplot2)
 #run inicsp analysis----
 #ALL OTUs 
 #has taxonomy column and funguild assignments 
-ITS<-read.csv("Data/bioinformatics/Courtney.guilds_indicsp.csv") #2797 OTUs 
+ITS<-read.csv("Data/Courtney.guilds_indicsp.csv") #2797 OTUs 
 
 #load mapping file, remove 'sample ID' cell before
 metadataGH<-read.csv("Data/map_SampleSeq_info.csv")
